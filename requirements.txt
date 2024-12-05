@@ -5,3 +5,4 @@ langchain-groq
 python-dotenv
 faiss-cpu
 streamlit-chat
+sentence_transformers

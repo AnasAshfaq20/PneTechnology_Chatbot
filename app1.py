@@ -10,7 +10,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from streamlit_chat import message
 
-groqapi_key = "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"
+groqapi_key = st.secrets['GROQ_API_KEY']
 
 def main():
     load_dotenv()
